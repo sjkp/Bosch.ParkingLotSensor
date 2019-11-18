@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bosch.ParkingLotSensor", "Bosch.ParkingLotSensor\Bosch.ParkingLotSensor.csproj", "{1D85C557-8B45-40F1-878D-562A95B637A4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bosch.ParkingLotSensor.Test", "Bosch.ParkingLotSensor.Test\Bosch.ParkingLotSensor.Test.csproj", "{49D5B348-B86D-4EC8-ABB4-02E65D9BF711}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1D85C557-8B45-40F1-878D-562A95B637A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D85C557-8B45-40F1-878D-562A95B637A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D85C557-8B45-40F1-878D-562A95B637A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D5B348-B86D-4EC8-ABB4-02E65D9BF711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D5B348-B86D-4EC8-ABB4-02E65D9BF711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D5B348-B86D-4EC8-ABB4-02E65D9BF711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D5B348-B86D-4EC8-ABB4-02E65D9BF711}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
