@@ -4,5 +4,7 @@
     {
         public bool? Occupied { get; set; }
         public ResetCauseEnum ResetCause { get; set; }
+
+        public string Firmware { get; set; }
     }
 }

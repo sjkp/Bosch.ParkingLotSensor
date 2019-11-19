@@ -31,6 +31,7 @@ namespace Bosch.ParkingLotSensor
                 case 3: //Startup
                     data.Occupied = (bytes[16] & 0x1) == 0x1;
                     data.ResetCause = (ResetCauseEnum)bytes[15];
+                    data.Firmware = $"{bytes[12]}.{bytes[13]}.{bytes[14]}";
                     break;
                 default:
                     return null;

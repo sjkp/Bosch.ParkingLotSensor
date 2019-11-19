@@ -64,5 +64,16 @@ namespace Bosch.ParkingLotSensor.Test
             Assert.True(res.Occupied);
             Assert.Equal(ResetCauseEnum.OtherReset, res.ResetCause);
         }
+
+        [Fact]
+        public void TestRealData()
+        {
+            int port = 3;
+            var res = Decoder.Decode(port, "00 00 00 00 99 02 02 06 00 02 00 00 00 17 03 02 00".Replace(" ", ""));
+            Assert.False(res.Occupied);
+            Assert.Equal(ResetCauseEnum.PowerOnReset, res.ResetCause);
+            
+
+        }
     }
 }
